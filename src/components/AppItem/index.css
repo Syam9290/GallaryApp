@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.appContainer {
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 160px;
+  height: 140px;
+}
+
+.appIcon {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .appIcon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .appContainer {
+    background-color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 90px;
+    height: 100px;
+  }
+}
